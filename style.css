@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  font-family: "Oswald";
+}
+.header img { 
+  height: 80%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid grey 5px;
+}
+.wrapper {
+  width: 100%;
+  margin-top: -31%;
+  background: rgba(6, 6, 6, .9);
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  border-radius: 1%;
+  z-index: 2; 
+}
+#word {
+  text-align: left;
+  float: left;
+  color: white;
+  margin-left: 3%;
+  margin-top: 37px;
+  margin-bottom: 1%;
+}
+#word h1 {
+  font-family: "Oswald";
+  font-size: 3em;
+  letter-spacing: 10px;
+  text-align: left;
+
+}
+#word h2 {
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  text-align: left;
+ 
+}
+button {
+  padding: 5px 10px;
+  font-size: 1.3em;
+  border-radius: 2px;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  border: 2px solid white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+button:active {
+  border: 2px solid white;
+}
+.machine { 
+  width: 45%;
+  font-family:  cursive;
+  color: white;
+  border-radius: 4px;
+  margin-top: 50px;
+  padding-top: 15px;
+  float: right;
+  position: relative;
+}
+#h3 {
+  display: block;
+  text-align: left;
+  font-size: 1.52em;
+  font-family: "marvel";
+  padding-right: 5%;
+}
+
+#h4 {
+  text-align: right;
+  padding-right: 9%;
+  padding-top: 9px;
+  font-size: 1.33em;
+  font-family: "marvel";
+}
